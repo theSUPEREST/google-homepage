@@ -7,11 +7,27 @@
         
     </head>
     <body>
-        <main class="flex-parent">
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <div class="right-nav flex-parent-row-centered">
+                <ul class="app-links">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                </ul>
+                    <a href="#"><span class="material-icons">
+                        apps
+                        </span></a>
+                <a href="#"><img src="images/googleaccounticon-d.png" alt="Account" id="account"></a>
+            </div>
+        </nav>
+        <main class="flex-parent-column-centered">
             <img src="images/googlelogo_color_272x92dp.png" alt="Google">
             <form action="#">
                 <div class="searchbar">
-                    <label for="search" class="flex-parent">
+                    <label for="search" class="flex-parent-column-centered">
                         <span class="material-icons md-20">search</span>
                     </label>
                     <input type="text" id="search" class="textbox">

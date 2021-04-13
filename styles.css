@@ -8,14 +8,48 @@ html, body, main {
     margin: 0;
 }
 
-.flex-parent {
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: .875rem;
+}
+
+.app-links {
+    font-size: .75rem;
+}
+a {
+    text-decoration: none;
+}
+
+#account {
+    border-radius: 100%;
+}
+.flex-parent-column-centered {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     
 }
+.flex-parent-row-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .4375rem .625rem;
+}
 
+nav li {
+    padding: 0 .5rem;
+}
 .searchbar {
     display: flex;
     border: 1px solid rgb(226, 226, 226);
@@ -25,7 +59,6 @@ html, body, main {
 }
 
 .searchbar:hover {
-    
     box-shadow: 0px 0px 6px rgb(194, 194, 194);
 }
 

@@ -1,0 +1,21 @@
+html * {
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+html, body, main {
+    height: 100%;
+    margin: 0;
+}
+
+.flex-parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.searchbar {
+    border: 1px solid #000
+}

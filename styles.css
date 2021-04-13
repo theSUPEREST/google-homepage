@@ -3,14 +3,39 @@ html * {
     color: #222;
 }
 
-html, body {
+html, body, main {
     height: 100%;
     margin: 0;
 }
 
-main {
+.flex-parent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 }
+
+.searchbar {
+    display: flex;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 20px;
+    width: 40rem;
+}
+
+.textbox {
+    font-size: 16px;
+    flex-grow: 1;
+    border: none;
+    margin: 10px;
+}
+
+.textbox:focus-visible {
+    outline: none;
+}
+
+label {
+    padding-left: 15px;
+}
+
+.md-20 { font-size: 20px; }

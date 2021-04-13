@@ -12,11 +12,13 @@ ul {
     list-style-type: none;
     display: flex;
     align-items: center;
-    padding: 0;
+    padding: 1rem;
     margin: 0;
     font-size: .875rem;
 }
-
+.apps-icon {
+    
+}
 .app-links {
     font-size: .75rem;
 }
@@ -26,6 +28,7 @@ a {
 
 #account {
     border-radius: 100%;
+    padding: 0 1rem;
 }
 .flex-parent-column-centered {
     display: flex;

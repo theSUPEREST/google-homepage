@@ -3,11 +3,18 @@ html * {
     color: #222;
 }
 
-html, body, main {
+html, body {
     height: 100%;
     margin: 0;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
 ul {
     list-style-type: none;
     display: flex;
@@ -16,16 +23,15 @@ ul {
     margin: 0;
     font-size: .875rem;
 }
-.apps-icon {
-    
-}
 .app-links {
     font-size: .75rem;
 }
 a {
     text-decoration: none;
 }
-
+a:hover {
+    text-decoration: underline;
+}
 #account {
     border-radius: 100%;
     padding: 0 1rem;
@@ -49,8 +55,23 @@ nav {
     align-items: center;
     padding: .4375rem .625rem;
 }
-
-nav li {
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: .4375rem .625rem;
+}
+.carbon-neutral {
+    justify-self: center;
+    font-size: .875rem;
+}
+.business-links {
+    
+}
+.legal-links {
+    justify-self: end;
+}
+li {
     padding: 0 .5rem;
 }
 .searchbar {
@@ -86,7 +107,10 @@ label {
     display: flex;
     justify-content: center;
 }
-
+#leaf {
+    height: 14px;
+    width: auto;
+}
 .button {
     font-size: .875rem;
     background:rgb(245, 245, 245);
